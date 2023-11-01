@@ -23,5 +23,6 @@ void binary_tree_print(const binary_tree_t *);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+int binary_tree_delete_node(binary_tree_t **root, int value);
 
 #endif /* _BINARY_TREES_H_ */
